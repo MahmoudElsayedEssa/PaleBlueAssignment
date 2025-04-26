@@ -31,7 +31,7 @@ object NetworkModule {
         client: OkHttpClient,
     ): Retrofit {
         return Retrofit.Builder()
-            .baseUrl(BuildConfig.BASE_URL)
+            .baseUrl("https://pixabay.com/")
             .client(client)
             .addConverterFactory(GsonConverterFactory.create())
             .build()

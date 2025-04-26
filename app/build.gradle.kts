@@ -11,9 +11,7 @@ plugins {
 
 // Load properties from the file
 val properties = Properties()
-val keysProperties = properties.apply {
-    load(file("keys_properties.properties").inputStream())
-}
+
 
 android {
     namespace = "com.binissa.paleblueassignment"
@@ -30,8 +28,6 @@ android {
         buildConfigField(
             "String", "PIXABAY_API_KEY", "\"${properties.getProperty("PIXABAY_API_KEY")}\""
         )
-        buildConfigField("String", "BASE_URL", "\"${properties.getProperty("BASE_URL")}\"")
-
     }
 
 

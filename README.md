@@ -1,5 +1,6 @@
+
 # 📸 Pixabay Image Search App
-> A modern Android app using Jetpack Compose + MVVM + Paging 3, with local caching via Room Database.  
+> A modern Android app using Jetpack Compose + MVVM + Paging 3, with local caching via Room Database and Coil.  
 > Search and browse images from the [Pixabay API](https://pixabay.com/api/) with a beautiful UI and offline support.
 
 ## ✨ Features
@@ -13,10 +14,7 @@
 
 ---
 ## 📱 Screenshots
-<!-- Add screenshots here if you have -->
-<!-- Example:
-<img src="screenshots/search_screen.png" width="300"/> <img src="screenshots/details_screen.png" width="300"/>
--->
+https://github.com/user-attachments/assets/73b561b9-8a3c-4294-9c4a-474470d79e18
 
 ---
 ## 🛠️ Tech Stack
@@ -58,7 +56,7 @@
 │   └── components/  # Reusable UI components
 │
 ├── di/              # Dependency injection (Hilt modules)
-└── PaleBlueApplication.kt
+└── Application.kt
 ```
 
 ---

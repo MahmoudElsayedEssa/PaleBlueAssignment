@@ -12,6 +12,9 @@ plugins {
 // Load properties from the file
 val properties = Properties()
 
+val keysProperties = properties.apply {
+     load(file("keys_properties.properties").inputStream())
+ }
 
 android {
     namespace = "com.binissa.paleblueassignment"
